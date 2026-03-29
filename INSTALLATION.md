@@ -4,6 +4,12 @@ This pipeline presumes the following installed software:
 
 -   Zotero 7.0.27
 -   Obsidian 1.12.4
+-   Git 2.51.2
+
+It also presumes the following services:
+
+-   [GitHub account](https://github.com/) (or any other source countrol service)
+-   [Zotero account](https://zotero.org/)
 
 > [!WARNING]
 > **Slightly outdated versions**
@@ -67,3 +73,11 @@ Install Better Notes for Zotero from the [GitHub repository](https://github.com/
 **Version:** 1.12.4
 
 Install Obsidian by selecting the appropriate version and packaging format for your system (`.exe` for Windows) [from the GitHub release page](https://github.com/obsidianmd/obsidian-releases/releases).
+
+## Git
+
+**Version:** 2.51.2
+
+Install Git [from the homepage](https://git-scm.com/) or using your system's package repository (Linux/MacOS with Homebrew/Windows with Chocolatey).
+
+The version should not matter here, as Git pretty much never changes drastically. This pipeline also uses no advanced or new Git features - we simply need basics like `init`, `add`, `commit`, and `push`.
